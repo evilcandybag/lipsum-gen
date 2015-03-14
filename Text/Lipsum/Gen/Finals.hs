@@ -2,6 +2,7 @@ module Text.Lipsum.Gen.Finals where
 
 import Test.QuickCheck
 
+-- | Generates final syllables.
 finals :: Gen String
 finals = frequency [
       (2462, return "er"),

@@ -2,6 +2,7 @@ module Text.Lipsum.Gen.Intermediates where
 
 import Test.QuickCheck
 
+-- | Generates intermediate syllables. 
 intermediates :: Gen String
 intermediates = frequency [    
     (2941, return "i"),

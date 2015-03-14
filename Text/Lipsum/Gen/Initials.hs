@@ -2,6 +2,7 @@ module Text.Lipsum.Gen.Initials where
 
 import Test.QuickCheck
 
+-- | Generates initial syllables. 
 initials :: Gen String
 initials = frequency [
     (1220, return "re"),
