@@ -1,4 +1,9 @@
-module Text.Lipsum.Gen where
+module Text.Lipsum.Gen (
+  text, sizedText,
+  paragraph, sizedParagraph,
+  sentence, sizedSentence,
+  word
+  )where
 
 import Data.Char
 import Data.List
